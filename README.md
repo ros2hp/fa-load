@@ -80,3 +80,4 @@ CSV parsing accepts standard UTF-8 RFC 4180 quoting, multiline records, and doub
 
 Deploy the CLI as a container/job/application and have your pipeline invoke it. Tokio does not provide a Fabric Spark notebook runtime or a Spark-compatible distributed engine. `data_repair` selects the expected post-repair row-count column; the source's inactive repair/debug code and commented clustered-index procedure call are not executed.
 
+# fa-load
