@@ -1,0 +1,21 @@
+{
+  "columns": [
+    "JE_HEADER_ID",
+    "JE_LINE_NUM",
+    "DESCRIPTION"
+  ],
+  "rows": 2,
+  "sample": [
+    [
+      "1001",
+      "1",
+      "First line\nSecond line"
+    ],
+    [
+      "1001",
+      "2",
+      "Quoted \"text\""
+    ]
+  ],
+  "metadata": {}
+}

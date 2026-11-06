@@ -1,0 +1,7 @@
+[
+  {
+    "path": "abfss://2-fund-accounting@stcstgmigae01.dfs.core.windows.net/2-input/load/Test/In/example_GL_export_/example_GL_export_.csv",
+    "name": "example_GL_export_.csv",
+    "size": 94
+  }
+]

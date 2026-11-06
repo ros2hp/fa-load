@@ -1,0 +1,37 @@
+# Defaults from the supplied notebooks. Review target tables before a real run.
+environment = "Test"
+operation = "GL_Load"
+drop_id = 1
+input_folder = "In"
+data_repair = false
+files_per_worker = 16
+batch_rows = 10000
+parser_queue_batches = 2
+file_timeout_seconds = 3600
+wave_timeout_seconds = 43200
+worker_retries = 1
+retry_interval_seconds = 30
+# concurrency = 4             # Defaults depend on environment and operation.
+# schema = "fa_test"
+# target_table = "fa_test.trialrun12_gl_raw"
+# pipeline_run_id = "..."
+
+[storage]
+account = "stcstgmigae01"
+container = "2-fund-accounting"
+base_folder = "2-input/load"
+connect_timeout_seconds = 10
+read_timeout_seconds = 30
+
+[sql]
+server = "stc-dev-db-mig.database.windows.net"
+database = "stc-dev-core-ae"
+port = 1433
+connect_timeout_seconds = 30
+
+[auth]
+# cli: uses your existing az login; service_principal: AZURE_TENANT_ID,
+# AZURE_CLIENT_ID, AZURE_CLIENT_SECRET; managed_identity: Azure IMDS.
+mode = "cli"
+# managed_identity_client_id = "..."
+

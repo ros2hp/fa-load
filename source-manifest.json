@@ -1,0 +1,165 @@
+{
+  "notebooks": [
+    {
+      "file": "fa-load-orchestrator.ipynb",
+      "sha256": "636bf08c0f19d9488e8a7df69a22744e11b8ac125de68791f43d81924ac91734",
+      "code_cells": 45
+    },
+    {
+      "file": "fa-load-worker.ipynb",
+      "sha256": "fbb95c742cf8e6b0edce52cf440866984b219d43d7f7bc26a554072d69724cf3",
+      "code_cells": 7
+    },
+    {
+      "file": "fa-load-tb-worker.ipynb",
+      "sha256": "d6b3f6181ad20703c4dd8e6e3a13c87ce91ae768319ccbdb39bacd76e6bec07f",
+      "code_cells": 11
+    }
+  ],
+  "checks": [
+    {
+      "operation": "Initial_GL_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1162,
+      "sql_file": "pre_check_initial_gl_load.sql"
+    },
+    {
+      "operation": "Incremental_GL_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1215,
+      "sql_file": "pre_check_incremental_gl_load.sql"
+    },
+    {
+      "operation": "Initial_AR_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1253,
+      "sql_file": "pre_check_initial_ar_load.sql"
+    },
+    {
+      "operation": "Incremental_AR_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1306,
+      "sql_file": "pre_check_incremental_ar_load.sql"
+    },
+    {
+      "operation": "Initial_TB_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1345,
+      "sql_file": "pre_check_initial_tb_load.sql"
+    },
+    {
+      "operation": "Incremental_TB_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1399,
+      "sql_file": "pre_check_incremental_tb_load.sql"
+    },
+    {
+      "operation": "Initial_AR_RECEIPT_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1438,
+      "sql_file": null
+    },
+    {
+      "operation": "Incremental_AR_RECEIPT_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1446,
+      "sql_file": null
+    },
+    {
+      "operation": "Initial_BU_CUSTOMER_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1454,
+      "sql_file": null
+    },
+    {
+      "operation": "Incremental_BU_CUSTOMER_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1462,
+      "sql_file": null
+    },
+    {
+      "operation": "Initial_JOURNAL_BATCH_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1471,
+      "sql_file": null
+    },
+    {
+      "operation": "Incremental_JOURNAL_BATCH_Load",
+      "phase": "PRE_CHECK",
+      "extracted_code_line": 1478,
+      "sql_file": null
+    },
+    {
+      "operation": "Initial_GL_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1491,
+      "sql_file": "post_check_initial_gl_load.sql"
+    },
+    {
+      "operation": "Incremental_GL_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1572,
+      "sql_file": "post_check_incremental_gl_load.sql"
+    },
+    {
+      "operation": "Initial_AR_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1653,
+      "sql_file": null
+    },
+    {
+      "operation": "Incremental_AR_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1660,
+      "sql_file": null
+    },
+    {
+      "operation": "Initial_TB_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1667,
+      "sql_file": "post_check_initial_tb_load.sql"
+    },
+    {
+      "operation": "Incremental_TB_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1790,
+      "sql_file": "post_check_incremental_tb_load.sql"
+    },
+    {
+      "operation": "Initial_AR_RECEIPT_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1916,
+      "sql_file": null
+    },
+    {
+      "operation": "Incremental_AR_RECEIPT_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1924,
+      "sql_file": null
+    },
+    {
+      "operation": "Initial_BU_CUSTOMER_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1933,
+      "sql_file": null
+    },
+    {
+      "operation": "Incremental_BU_CUSTOMER_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1940,
+      "sql_file": null
+    },
+    {
+      "operation": "Initial_JOURNAL_BATCH_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1948,
+      "sql_file": null
+    },
+    {
+      "operation": "Incremental_JOURNAL_BATCH_Load",
+      "phase": "POST_CHECK",
+      "extracted_code_line": 1955,
+      "sql_file": null
+    }
+  ]
+}

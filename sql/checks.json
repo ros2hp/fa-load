@@ -1,0 +1,170 @@
+{
+  "Initial_GL_Load": {
+    "PRE_CHECK": {
+      "file": "pre_check_initial_gl_load.sql",
+      "expected": 0,
+      "pass_message": "Target table {TARGET_TABLE}, contains no rows and no indexes",
+      "fail_message": "Target table {TARGET_TABLE} "
+    },
+    "POST_CHECK": {
+      "file": "post_check_initial_gl_load.sql",
+      "expected": 0,
+      "pass_message": "No duplicates found.",
+      "fail_message": "Duplicates detected."
+    }
+  },
+  "Incremental_GL_Load": {
+    "PRE_CHECK": {
+      "file": "pre_check_incremental_gl_load.sql",
+      "expected": 0,
+      "pass_message": "Target table {TARGET_TABLE}, contains rows.",
+      "fail_message": "Target table {TARGET_TABLE} "
+    },
+    "POST_CHECK": {
+      "file": "post_check_incremental_gl_load.sql",
+      "expected": 0,
+      "pass_message": "No duplicates found.",
+      "fail_message": "Duplicates detected."
+    }
+  },
+  "Initial_AR_Load": {
+    "PRE_CHECK": {
+      "file": "pre_check_initial_ar_load.sql",
+      "expected": 0,
+      "pass_message": "Target table {TARGET_TABLE}, contains no rows and no indexes",
+      "fail_message": "Target table {TARGET_TABLE} "
+    },
+    "POST_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "No duplicates found.",
+      "fail_message": "Duplicates detected."
+    }
+  },
+  "Incremental_AR_Load": {
+    "PRE_CHECK": {
+      "file": "pre_check_incremental_ar_load.sql",
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    },
+    "POST_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "No duplicates found.",
+      "fail_message": "Duplicates detected."
+    }
+  },
+  "Initial_TB_Load": {
+    "PRE_CHECK": {
+      "file": "pre_check_initial_tb_load.sql",
+      "expected": 0,
+      "pass_message": "Target table {TARGET_TABLE}, contains no rows and no indexes",
+      "fail_message": "Target table {TARGET_TABLE} "
+    },
+    "POST_CHECK": {
+      "file": "post_check_initial_tb_load.sql",
+      "expected": 0,
+      "pass_message": "No duplicates found and balance checks passed",
+      "fail_message": "Duplicates detected or balance checks failed."
+    }
+  },
+  "Incremental_TB_Load": {
+    "PRE_CHECK": {
+      "file": "pre_check_incremental_tb_load.sql",
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    },
+    "POST_CHECK": {
+      "file": "post_check_incremental_tb_load.sql",
+      "expected": 0,
+      "pass_message": "No duplicates found.",
+      "fail_message": "Duplicates detected."
+    }
+  },
+  "Initial_AR_RECEIPT_Load": {
+    "PRE_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    },
+    "POST_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    }
+  },
+  "Incremental_AR_RECEIPT_Load": {
+    "PRE_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    },
+    "POST_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    }
+  },
+  "Initial_BU_CUSTOMER_Load": {
+    "PRE_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    },
+    "POST_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    }
+  },
+  "Incremental_BU_CUSTOMER_Load": {
+    "PRE_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    },
+    "POST_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    }
+  },
+  "Initial_JOURNAL_BATCH_Load": {
+    "PRE_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    },
+    "POST_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    }
+  },
+  "Incremental_JOURNAL_BATCH_Load": {
+    "PRE_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    },
+    "POST_CHECK": {
+      "file": null,
+      "expected": 0,
+      "pass_message": "",
+      "fail_message": ""
+    }
+  }
+}
